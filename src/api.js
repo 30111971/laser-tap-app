@@ -1,7 +1,7 @@
 import axios from "axios";
 import socketIOClient from 'socket.io-client';
 
-let host = "https://laser-tag-api.herokuapp.com";
+let host = "http://localhost:3030/";
 
 const api  = axios.create({
   baseURL: host,
